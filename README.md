@@ -1,4 +1,4 @@
-# Functional Programming in JavaScript
+# [Functional Programming in JavaScript][published url]
 
 ## Instructor: [Jason Rhodes][instructor url]
 
@@ -12,5 +12,5 @@ These are source files for the Tuts+ course: [Functional Programming in JavaScri
 
 Available on [Tuts+](https://tutsplus.com)
 
-[published url]: https://code.tutsplus.com/courses
+[published url]: https://code.tutsplus.com/courses/functional-programming-in-javascript
 [instructor url]: https://tutsplus.com/authors/jason-rhodes

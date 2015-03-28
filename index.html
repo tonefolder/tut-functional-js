@@ -19,19 +19,38 @@
             <a class="btn btn-default btn-active" data-filter='"all"'>All</a>
             <a class="btn btn-default" data-filter='"domestic"'>Domestic</a>
             <a class="btn btn-default" data-filter='"import"'>Imports</a>
+            <a class="btn btn-default" data-filter='"lager"'>Lagers</a>
+            <a class="btn btn-default" data-filter='"stout"'>Stouts</a>
+            <a class="btn btn-default" data-filter='"belgian"'>Belgian Style</a>
             <div class="btn-group">
               <a type="button" class="btn btn-default" data-filter='["ipa","ale"]'>Ales</a>
-              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+              <button type="button"
+                      class="btn btn-default dropdown-toggle"
+                      data-toggle="dropdown"
+                      aria-expanded="false">
                 <span class="caret"></span>
                 <span class="sr-only">Toggle Dropdown</span>
               </button>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="#" data-filter='"ipa"'>IPA</a></li>
-                <li><a href="#" data-filter='"ale"'>Ale</a></li>
+                <li><a data-filter='"ipa"'>IPA</a></li>
+                <li><a data-filter='"ale"'>Ale</a></li>
               </ul>
             </div>
-            <a class="btn btn-default" data-filter='"lager"'>Lagers</a>
-            <a class="btn btn-default" data-filter='"stout"'>Stouts</a>
+            <div class="btn-group">
+              <a type="button" class="btn btn-default">Other</a>
+              <button type="button"
+                      class="btn btn-default dropdown-toggle"
+                      data-toggle="dropdown"
+                      aria-expanded="false">
+                <span class="caret"></span>
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                <li><a data-filter='"sahti"'>Sahti</a></li>
+                <li><a data-filter='"mead"'>Mead</a></li>
+                <li><a data-filter='"braggot"'>Braggot</a></li>
+              </ul>
+            </div>
         </div>
 
         <ul id="beerList"></ul>
